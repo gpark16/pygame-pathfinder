@@ -10,12 +10,15 @@ Pygame
 --- How to use ---
 
 Navigate to the directory containing the file in the terminal/command-line
+
 Enter "python3 pathfinder.py" and press enter
 
 Left Click to place the start/end nodes and barriers
+
 Right Click to reset any nodes to blank
 
 Spacebar to run the pathfinding algorithm
+
 C to clear the board
 
 --- Notes ---
