@@ -5,6 +5,7 @@ This a pathfinding app which uses the A* Algorithm to find the most optimal path
 --- Need installed for use ---
 
 Python 3
+
 Pygame
 
 --- How to use ---
@@ -12,6 +13,7 @@ Pygame
 Navigate to the directory containing the file in the terminal/command-line
 
 Enter "python3 pathfinder.py" and press enter
+
 
 Left Click to place the start/end nodes and barriers
 
@@ -24,6 +26,10 @@ C to clear the board
 --- Notes ---
 
 #h(n) is the "absolute distance" heuristic. We are using Manhattan Distances for this
+
 #g(n) is the current shortest distance from the start node to the current node
+
 #f(n) is h(n) + g(n)
+
 #Every node has an f(n) and we will consider the f(n) of the possible next nodes to know which path to move toward
+
